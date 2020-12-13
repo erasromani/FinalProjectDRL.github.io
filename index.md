@@ -24,11 +24,12 @@ In each time step, bus can move 1 unit to its current destination. If bus moves 
 The below gif can illustrate such procedure.
 
 #### States
-In each time step, we have two kind of states. One is customers' information, which incudes their origins, destination and waiting time. Another is 
-
-
+In each time step, we have two kind of states. One is customers' information, which incudes their origins, destinations and waiting time. Another is vehicle information. This includes bus location, in-vehicle peoples' destinations and their in-vehicle time. The two kind of states can represent current time step states.
 
 #### Actions
+Actions are 
+
+
 
 #### Rewards
 
