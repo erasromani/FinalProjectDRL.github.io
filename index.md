@@ -14,14 +14,15 @@ Based these works, the project aims to build a real time on-demand bus service u
 ## Methods
 In order to build such on-demand bus system, a simulation environment and proper policy network has been proposed, which are illustrated in details in the following parts.
 
-###Environments
+### Environments
 #### States
-
+To simplfy operation strategies, a 10 by 10 square grids are created to represent different districts. It is also reasonable to do so in reality. For example, we can set a bus station in a 500 meters by 500 meters area. 
+bus station in reality. All demands are requested in bus station
 #### Actions
 
 #### Rewards
 
-###Network Design 
+### Network Design 
 
 
 ## Experiments and results
