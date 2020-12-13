@@ -3,8 +3,8 @@ Recent researches revealed that deep reinforcement learning(DRL) has potential t
 
 Pick-up-and delivery is such a NP-hard problem. 
 <p align="center">
-  <img width="200" height="200" src=images/require.png>
-  <img width="200" height="200" src=images/result.png>
+  <img width="400" height="300" src=images/require.png>
+  <img width="400" height="300" src=images/result.png>
 </p>
 
 
