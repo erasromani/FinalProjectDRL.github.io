@@ -14,12 +14,19 @@ Based these works, the project aims to build a real time on-demand bus service u
 ## Methods
 In order to build such on-demand bus system, a simulation environment and proper policy network has been proposed, which are illustrated in details in the following parts.
 
-### Environments
+### Environment Setting
 
 #### Basic Setting
-To simplfy operation strategies, a 10 by 10 square grids are created to represent different districts. It is also reasonable to do so in reality. For example, we can set a bus station in a 500 meters by 500 meters area, which is reachable by walking. Then, people can gather to bus station and request bus service. Therefore, all demands happen in the center of squared area. 1000 hundred time steps are counted as one 
+To simplfy operation strategies, a 10 by 10 square grids are created to represent different districts. It is also reasonable to do so in reality. For example, we can set a bus station in a 500 meters by 500 meters area, which is reachable by walking. Then, people can gather to bus station and request bus service. Therefore, all demands happen in the center of squared area. One episode has 1000 hundred time steps. In each time step, demands will be generated using poisson distribution with 0.2 arrival rate. Therefore, about 200 orders will be generated in one episode. For space distribution, origins will be generated using normal distribution with mean at the center (5,5) and variance 4. Destinations will be obtained randomly in the sapce.
+
+In each time step, bus can move 1 unit to its current destination. If bus moves to one station and exceed 1 unit, the bus will stop at the station. If bus stop at one station and its current capacity is less than 5, it will pick up as many customers as possible and also release the in-vehicle customers. The model now doesn't consider service time. 
+
+The below gif can illustrate such procedure.
 
 #### States
+In each time step, we have two kind of states. One is customes information, which incudes its or
+
+
 
 #### Actions
 
