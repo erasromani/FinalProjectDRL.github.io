@@ -3,11 +3,13 @@ Recent researches revealed that deep reinforcement learning(DRL) has potential t
 
 Pick up and delivery problem is such a NP-hard problem. Its goal is to final optimal path to satisfy all demands on a map given a set of origins and destinations and several vehicles with limited capacity. This is illustrated below. One can set time windows for each demands to ensure orders are picked up during specific time windows, which is called pickup and delivery problem with time windows (PDPTW). Since the problem is very common in the reality like food delivery, ride hailing service and other transportatio systems, many literatures focus on developing efficient algotihtms to solve the problem. However, the more realistic setting is that the deamnds will appear dynamically, leading to much more sophisticated problem. The dynamic of transition is also hard to be captured using mathematical tools.
 <p align="center">
-  <img width="400" height="300" src=Img/Require.png>
-  <img width="400" height="300" src=Img/Result.png>
+  <img width="400" height="300" src="Img/Require.png">
+  <img width="400" height="300" src="Img/Result.png">
 </p>
 
-Therefore, more and more researches begin to apply DRL to solve dynamic PPDTW. Amazon sets a reinforcement learning benchmarks for online pick up and delivery problem \[[4](https://arxiv.org/pdf/1911.10641.pdf)\]. Other researches try to deploy DRL agents for ride hailing service\[[5](https://arxiv.org/pdf/1903.03882.pdf)\]\[[6](https://arxiv.org/abs/1911.11260)\]
+Therefore, more and more researches begin to apply DRL to solve dynamic PPDTW. Amazon sets a reinforcement learning benchmarks for online pick up and delivery problem \[[4](https://arxiv.org/pdf/1911.10641.pdf)\]. Other researches try to deploy DRL agents for ride hailing service\[[5](https://arxiv.org/pdf/1903.03882.pdf)\]\[[6](https://arxiv.org/abs/1911.11260)\]. 
+
+Based These works inspire me to build a real time on-demand bus using 
 
 ### Markdown
 
