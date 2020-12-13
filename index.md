@@ -1,7 +1,7 @@
 ## Introduction
 Recent researches revealed that deep reinforcement learning(DRL) has potential to solove optimization problem like travelling salesman problem(TSP)\[[1](https://arxiv.org/pdf/1611.09940.pdf)\] ,vehicle routing problem(VRP) and their variants \[[2](https://papers.nips.cc/paper/8190-reinforcement-learning-for-solving-the-vehicle-routing-problem.pdf)\]\[[3](https://dl.acm.org/doi/pdf/10.1145/3394486.3403356)\]. These problems are NP-hard problems and usually solved using manuscript heuristics. It requires expertise in optimization field to design efficient heuristic algorithms. DRL has shown great potential to automatically learn heuristics, attracting more researchers to apply DRL to solve such problems.
 
-Pick-up-and delivery is such a NP-hard problem. 
+Pick-up-and delivery is such a NP-hard problem. ![](images/require.png)
 For VRP problem, its goal is to final optimal path to satisfy all demands on a map  given a demands loctions and several vehicles with limited capacity.
 
 
