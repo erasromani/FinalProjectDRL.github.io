@@ -12,13 +12,17 @@ Therefore, more and more researches begin to apply DRL to solve dynamic PPDTW. A
 Based these works, the project aims to build a real time on-demand bus service using a single DRL agent. On-demand buses pick up real-time demands at origins and drop off customers at their corresponding destinations. It is basiclly a larger carpolling system with larger capacity and lower price. The system is in between current bus sytems and ride hailing systems, which can effictively reduce the current traffic conjestion caused by surging ride hailling service\[[7](https://arxiv.org/pdf/2003.10942)\]. 
 
 ## Methods
-In order to build such on-demand bus system, a simulation environment has been created to do protype analysis. The environment is shown below
+In order to build such on-demand bus system, a simulation environment and proper policy network has been proposed, which are illustrated in details in the following parts.
 
-### States
+###Environments
+#### States
 
-### Actions
+#### Actions
 
-### Rewards
+#### Rewards
+
+###Network Design 
+
 
 ## Experiments and results
 
