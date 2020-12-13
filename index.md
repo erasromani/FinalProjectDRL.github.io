@@ -27,7 +27,7 @@ The below gif can illustrate such procedure.
 In each time step, we have two kind of states. One is customers' information, which incudes their origins, destinations and waiting time. Another is vehicle information. This includes bus location, in-vehicle peoples' destinations and their in-vehicle time. The two kind of states can represent current time step states.
 
 #### Actions
-Actions are 
+Each time step, the bus agent will decide its destination. In this setting, the possible destination is 100 districts. However, as demands are dense at mean rate of 0.2, which also algin the reality setting.  
 
 
 
