@@ -4,6 +4,7 @@ Recent researches revealed that deep reinforcement learning(DRL) has potential t
 Pick-up-and delivery is such a NP-hard problem. 
 
 ![](images/require.png)
+![](images/result.png)
 
 For VRP problem, its goal is to final optimal path to satisfy all demands on a map  given a demands loctions and several vehicles with limited capacity.
 
