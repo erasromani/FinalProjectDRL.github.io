@@ -11,34 +11,12 @@ Therefore, more and more researches begin to apply DRL to solve dynamic PPDTW. A
 
 Based these works, the project aims to build a real time on-demand bus service using a single DRL agent. On-demand bus pick up real-time demands at origins and drop off customers at their corresponding destinations. It is basiclly a larger carpolling system with larger capacity and lower price. The system is in between current bus sytems and ride hailing systems, which can effictively reduce the current traffic conjestion caused by surging ride hailling service\[[7](https://arxiv.org/pdf/2003.10942)\] 
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions forafafdafafsdfddfad
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
+## Jekyll Themes
 
 Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/zhilee2019/FinalProjectDRL.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
-### Reference
+## Reference
 \[[1](https://arxiv.org/pdf/1611.09940.pdf)\] Bello, I., Pham, H., Le, Q. V., Norouzi, M., & Bengio, S. (2016). Neural combinatorial optimization with reinforcement learning. arXiv preprint arXiv:1611.09940.
 
 \[[2](https://papers.nips.cc/paper/8190-reinforcement-learning-for-solving-the-vehicle-routing-problem.pdf)\]Nazari, M., Oroojlooy, A., Snyder, L., & Takác, M. (2018). Reinforcement learning for solving the vehicle routing problem. In Advances in Neural Information Processing Systems (pp. 9839-9849).
