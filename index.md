@@ -9,12 +9,23 @@ Pick up and delivery problem is such a NP-hard problem. Its goal is to final opt
 
 Therefore, more and more researches begin to apply DRL to solve dynamic PPDTW. Amazon sets a reinforcement learning benchmarks for online pick up and delivery problem \[[4](https://arxiv.org/pdf/1911.10641.pdf)\]. Other researches try to deploy DRL agents for ride hailing service\[[5](https://arxiv.org/pdf/1903.03882.pdf)\]\[[6](https://arxiv.org/abs/1911.11260)\]. 
 
-Based these works, the project aims to build a real time on-demand bus service using a single DRL agent. On-demand bus pick up real-time demands at origins and drop off customers at their corresponding destinations. It is basiclly a larger carpolling system with larger capacity and lower price. The system is in between current bus sytems and ride hailing systems, which can effictively reduce the current traffic conjestion caused by surging ride hailling service\[[7](https://arxiv.org/pdf/2003.10942)\] 
+Based these works, the project aims to build a real time on-demand bus service using a single DRL agent. On-demand buses pick up real-time demands at origins and drop off customers at their corresponding destinations. It is basiclly a larger carpolling system with larger capacity and lower price. The system is in between current bus sytems and ride hailing systems, which can effictively reduce the current traffic conjestion caused by surging ride hailling service\[[7](https://arxiv.org/pdf/2003.10942)\]. 
+
+## Methods
+In order to build such on-demand bus system, a simulation environment has been created to do protype analysis. The environment is shown below
+
+### States
+
+### Actions
+
+### Rewards
+
+## Experiments and results
 
 
-## Jekyll Themes
+## Future Work
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/zhilee2019/FinalProjectDRL.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+
 
 ## Reference
 \[[1](https://arxiv.org/pdf/1611.09940.pdf)\] Bello, I., Pham, H., Le, Q. V., Norouzi, M., & Bengio, S. (2016). Neural combinatorial optimization with reinforcement learning. arXiv preprint arXiv:1611.09940.
