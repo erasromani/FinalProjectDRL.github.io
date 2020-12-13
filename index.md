@@ -1,7 +1,7 @@
 ## Introduction
 Recent researches revealed that deep reinforcement learning(DRL) has potential to solove optimization problem like travelling salesman problem(TSP)\[[1](https://arxiv.org/pdf/1611.09940.pdf)\] ,vehicle routing problem(VRP) and their variants \[[2](https://papers.nips.cc/paper/8190-reinforcement-learning-for-solving-the-vehicle-routing-problem.pdf)\]\[[3](https://dl.acm.org/doi/pdf/10.1145/3394486.3403356)\]. These problems are NP-hard problems and usually solved using manuscript heuristics. It requires expertise in optimization field to design efficient heuristic algorithms. DRL has shown great potential to automatically learn heuristics, attracting more researchers to apply DRL to solve such problems.
 
-Pick up and delivery problem is such a NP-hard problem. Its goal is to final optimal path to satisfy all demands on a map given a set of origins and destinations and several vehicles with limited capacity. This is illustrated below. One can set time windows for each demands to ensure orders are picked up during specific time windows, which is called pickup and delivery problem with time windows (PDPTW). Since the problem is very common in the reality like food delivery, ride hailing service and other transportatio systems, many literatures focus on developing efficient algotihtms to solve the problem. However, the more realistic setting is that the deamnds will appear dynamically, leading to much more sophisticated problem. The dynamic of transition is also hard to be captured using mathematical tools.
+Pick up and delivery problem is such a NP-hard problem. Its goal is to final optimal path to satisfy all demands on a map given a set of origins and destinations and several vehicles with limited capacity. This is illustrated below. One can set time windows for each demands to ensure orders are picked up during specific time windows, which is called pickup and delivery problem with time windows (PDPTW). Since the problem is very common in the reality like food delivery, ride hailing service and other transportatio systems, many literatures focus on developing efficient algotihtms to solve the problem. However, a more realistic setting is that deamnds will appear dynamically, leading to much more sophisticated problems. The dynamic of transition is also hard to be captured using mathematical tools.
 <p align="center">
   <img width="400" height="300" src="Img/Require.png">
   <img width="400" height="300" src="Img/Result.png">
@@ -9,7 +9,7 @@ Pick up and delivery problem is such a NP-hard problem. Its goal is to final opt
 
 Therefore, more and more researches begin to apply DRL to solve dynamic PPDTW. Amazon sets a reinforcement learning benchmarks for online pick up and delivery problem \[[4](https://arxiv.org/pdf/1911.10641.pdf)\]. Other researches try to deploy DRL agents for ride hailing service\[[5](https://arxiv.org/pdf/1903.03882.pdf)\]\[[6](https://arxiv.org/abs/1911.11260)\]. 
 
-Based These works inspire me to build a real time on-demand bus using 
+Based these works, the project aims to build a real time on-demand bus using a single DRL agent. On-demand bus pick up real-time demands at origins and drop off customers at their corresponding destinations. It is basiclly a larger carpolling system with larger capacity and lower price. The system is in between current bus sytems and ride hailing systems, which can effictively reduce the current traffic conjestion caused by surging ride hailling service\[[7](https://arxiv.org/pdf/2003.10942)\] 
 
 ### Markdown
 
@@ -49,4 +49,6 @@ Your Pages site will use the layout and styles from the Jekyll theme you have se
 
 \[[5](https://arxiv.org/pdf/1903.03882.pdf)\]Al-Abbasi, A. O., Ghosh, A., & Aggarwal, V. (2019). Deeppool: Distributed model-free algorithm for ride-sharing using deep reinforcement learning. IEEE Transactions on Intelligent Transportation Systems, 20(12), 4714-4727.
 
-\[[6](https://arxiv.org/abs/1911.11260)\] Holler, J., Vuorio, R., Qin, Z., Tang, X., Jiao, Y., Jin, T., ... & Ye, J. (2019, November). Deep Reinforcement Learning for Multi-Driver Vehicle Dispatching and Repositioning Problem. In 2019 IEEE International Conference on Data Mining (ICDM) (pp. 1090-1095). IEEE.
+\[[6](https://arxiv.org/abs/1911.11260)\] Holler, J., Vuorio, R., Qin, Z., Tang, X., Jiao, Y., Jin, T., ... & Ye, J. (2019, November). Deep Reinforcement Learning for Multi-Driver Vehicle Dispatching and Repositioning Problem. In 2019 IEEE International Conference on Data Mining (ICDM) (pp. 1090-1095). IEEE.\
+
+\[[7](https://arxiv.org/pdf/2003.10942)\]Riley, C., Van Hentenryck, P., & Yuan, E. (2020). Real-Time Dispatching of Large-Scale Ride-Sharing Systems: Integrating Optimization, Machine Learning, and Model Predictive Control. arXiv preprint arXiv:2003.10942.
