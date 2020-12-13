@@ -1,5 +1,5 @@
 ## Introduction
-Recent groundbreaking success in deep reinforcement learning(DRL) has attracted widespread interest. Recent research revealed that deep reinforcement learning has potential to optimization problem like vehicle routing problem[1], 
+Recent groundbreaking success in deep reinforcement learning(DRL) has attracted widespread interest. Recent research revealed that deep reinforcement learning has potential to optimization problem like travelling salesman problem[1](https://arxiv.org/pdf/1611.09940.pdf) ,vehicle routing problem [2]()[3], 
 
 
 DRL agents can achieve human-level or even better control performance in varied fields,including robotics, game playing, self-driving and many others. In traffic area, DiDi,which is one of the leading  ride-hailing companies, has successfully deployed DRL agents for their order dispatch system.Due to high dimensionality of such systems, many complex dispatch systems can be improved using reinforcement learning agents. 
@@ -34,6 +34,6 @@ For more details see [GitHub Flavored Markdown](https://guides.github.com/featur
 Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/zhilee2019/FinalProjectDRL.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
 ### Reference
-
+[1](https://arxiv.org/pdf/1611.09940.pdf) Bello, I., Pham, H., Le, Q. V., Norouzi, M., & Bengio, S. (2016). Neural combinatorial optimization with reinforcement learning. arXiv preprint arXiv:1611.09940.
 
 
