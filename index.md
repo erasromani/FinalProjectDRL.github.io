@@ -7,7 +7,7 @@ Pick up and delivery problem is such a NP-hard problem. Its goal is to final opt
   <img width="400" height="300" src=images/result.png>
 </p>
 
-Therefore, more and more researches begin to apply DRL to solve dynamic PPDTW. Amazon sets a reinforcement learning benchmarks for online pick up and delivery problem \[[4]\] and  
+Therefore, more and more researches begin to apply DRL to solve dynamic PPDTW. Amazon sets a reinforcement learning benchmarks for online pick up and delivery problem \[[4]\]. Other researches try to deploy DRL agents to dispathes cutomers\[[6](https://arxiv.org/abs/1911.11260)\]
 
 ### Markdown
 
@@ -47,4 +47,4 @@ Your Pages site will use the layout and styles from the Jekyll theme you have se
 
 \[[5](https://arxiv.org/pdf/1903.03882.pdf)\]Al-Abbasi, A. O., Ghosh, A., & Aggarwal, V. (2019). Deeppool: Distributed model-free algorithm for ride-sharing using deep reinforcement learning. IEEE Transactions on Intelligent Transportation Systems, 20(12), 4714-4727.
 
-\[[6]\]
+\[[6](https://arxiv.org/abs/1911.11260)\] Holler, J., Vuorio, R., Qin, Z., Tang, X., Jiao, Y., Jin, T., ... & Ye, J. (2019, November). Deep Reinforcement Learning for Multi-Driver Vehicle Dispatching and Repositioning Problem. In 2019 IEEE International Conference on Data Mining (ICDM) (pp. 1090-1095). IEEE.
