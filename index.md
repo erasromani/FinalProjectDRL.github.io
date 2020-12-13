@@ -1,5 +1,5 @@
 ## Introduction
-Recent researches revealed that deep reinforcement learning has potential to solove optimization problem like travelling salesman problem\[[1](https://arxiv.org/pdf/1611.09940.pdf)\] ,vehicle routing problem \[[2](https://papers.nips.cc/paper/8190-reinforcement-learning-for-solving-the-vehicle-routing-problem.pdf)\]\[[3](https://dl.acm.org/doi/pdf/10.1145/3394486.3403356)\]. These problems are NP-hard problems and usually solved using manuscript heuristics. It requires expertise in optimization field to design efficient heuristics algorithms. 
+Recent researches revealed that deep reinforcement learning has potential to solove optimization problem like travelling salesman problem\[[1](https://arxiv.org/pdf/1611.09940.pdf)\] ,vehicle routing problem \[[2](https://papers.nips.cc/paper/8190-reinforcement-learning-for-solving-the-vehicle-routing-problem.pdf)\]\[[3](https://dl.acm.org/doi/pdf/10.1145/3394486.3403356)\]. These problems are NP-hard problems and usually solved using manuscript heuristics. It requires expertise in optimization field to design efficient heuristics algorithms. fasdf ddf
 
 
 
