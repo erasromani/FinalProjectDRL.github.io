@@ -35,6 +35,8 @@ Your Pages site will use the layout and styles from the Jekyll theme you have se
 
 ### Reference
 [1](https://arxiv.org/pdf/1611.09940.pdf) Bello, I., Pham, H., Le, Q. V., Norouzi, M., & Bengio, S. (2016). Neural combinatorial optimization with reinforcement learning. arXiv preprint arXiv:1611.09940.
+
 [2](https://papers.nips.cc/paper/8190-reinforcement-learning-for-solving-the-vehicle-routing-problem.pdf)Nazari, M., Oroojlooy, A., Snyder, L., & Takác, M. (2018). Reinforcement learning for solving the vehicle routing problem. In Advances in Neural Information Processing Systems (pp. 9839-9849).
+
 [3](https://dl.acm.org/doi/pdf/10.1145/3394486.3403356)Efficiently Solving the Practical Vehicle Routing Problem: A Novel Joint Learning Approach
 
