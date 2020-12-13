@@ -9,7 +9,7 @@ Pick up and delivery problem is such a NP-hard problem. Its goal is to final opt
 
 Therefore, more and more researches begin to apply DRL to solve dynamic PPDTW. Amazon sets a reinforcement learning benchmarks for online pick up and delivery problem \[[4](https://arxiv.org/pdf/1911.10641.pdf)\]. Other researches try to deploy DRL agents for ride hailing service\[[5](https://arxiv.org/pdf/1903.03882.pdf)\]\[[6](https://arxiv.org/abs/1911.11260)\]. 
 
-Based these works, the project aims to build a real time on-demand bus using a single DRL agent. On-demand bus pick up real-time demands at origins and drop off customers at their corresponding destinations. It is basiclly a larger carpolling system with larger capacity and lower price. The system is in between current bus sytems and ride hailing systems, which can effictively reduce the current traffic conjestion caused by surging ride hailling service\[[7](https://arxiv.org/pdf/2003.10942)\] 
+Based these works, the project aims to build a real time on-demand bus service using a single DRL agent. On-demand bus pick up real-time demands at origins and drop off customers at their corresponding destinations. It is basiclly a larger carpolling system with larger capacity and lower price. The system is in between current bus sytems and ride hailing systems, which can effictively reduce the current traffic conjestion caused by surging ride hailling service\[[7](https://arxiv.org/pdf/2003.10942)\] 
 
 ### Markdown
 
