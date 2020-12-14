@@ -41,7 +41,7 @@ Another hard part is to design a proper neural network to capture the changing e
 
 ## Experiments and results
 Two models are proposed to solve the above enviroment setting, which are actor critic using a PPO agent and dueling double deep q network. The parameters of actor critic with a PPO agent are 
-
+<p align="center">
 | Parameters    | Actor Critic |Dueling Double DQN|
 | ------------- | ----------------- |--------|
 | Discount | 0.99|0.99|
@@ -52,7 +52,7 @@ Two models are proposed to solve the above enviroment setting, which are actor c
 |Learning Rate|0.0005|0.0005|
 |Entropy Regularization|0.005|/|
 |Steps to Update Target Networks|/|1000|
-
+</p>
 ## Future Work
 
 
