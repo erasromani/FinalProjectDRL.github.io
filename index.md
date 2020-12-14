@@ -76,6 +76,11 @@ Moreover, the ratio of average in-vehicle time over direct trip time is plotted 
   <img width="265" height="220" src="Img/average ratio.png">
 </p>
 
+### Illustration of trained agent
+<p align="center">
+  <img width="600" height="600" src="Img/ff8.gif">
+</p>
+
 ## Conclusion
 In this project, a single DRL agent of on-demand bus is established. The agent is trained using actor critic with PPO agent and dueling doubel DQN. The training is successful and all related criteria are improved significantly after 5000-episodes training. It is proved that it is feasible to deploy DRL agents for on-demand bus service.
 ## Future Work
