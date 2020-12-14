@@ -52,7 +52,9 @@ Two models are proposed to solve the above enviroment setting, which are actor c
 |Learning Rate|0.0005|0.0005|
 |Entropy Regularization|0.005|/|
 |Steps to Update Target Networks|/|1000|
+
 The training curve of episode rewards and average 100-episodes rewards are shown in below graph.
+
 <p align="center">
   <img width="400" height="300" src="Img/t1.png">
   <img width="400" height="300" src="Img/t2.png">
