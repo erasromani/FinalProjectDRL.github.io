@@ -40,7 +40,7 @@ Another hard part is to design a proper neural network to capture the changing e
 </p>
 
 ### Illustration of Environment
-The trained agent in part 3 is an example of the environment. The red lines are demands of customers and the green lines are destinations of in-vehicle customers.
+The trained agent in part 3 is an example of the environment. The blue lines are demands of customers and the green lines are destinations of in-vehicle customers.
 
 
 ## Experiments and results
