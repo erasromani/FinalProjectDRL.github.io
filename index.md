@@ -65,9 +65,9 @@ For the Dueling Double DQN agent, the average number of on-time delivery and ove
 
 
 <p align="center">
-  <img width="250" height="200" src="Img/td.png">
-  <img width="250" height="200" src="Img/te.png">
-  <img width="250" height="200" src="Img/average ratio.png">
+  <img width="250" height="230" src="Img/td.png">
+  <img width="250" height="230" src="Img/te.png">
+  <img width="250" height="230" src="Img/average ratio.png">
 </p>
 
 ## Conclusion
