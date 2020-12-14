@@ -71,7 +71,7 @@ For the Dueling Double DQN agent, the average number of on-time delivery and ove
 </p>
 
 ## Conclusion
-In this project, a single DRL agent of on-demand bus is established. The agent is trained using actor critic with PPO agent and dueling doubel DQN. The training is successful and all related criteria are improved significantly after 5000-episodes training. It is proved that it is feasible for applying the DRL to large scale on-demand bus system.
+In this project, a single DRL agent of on-demand bus is established. The agent is trained using actor critic with PPO agent and dueling doubel DQN. The training is successful and all related criteria are improved significantly after 5000-episodes training. It is proved that it is feasible to deploy DRL agents for on-demand bus service.
 ## Future Work
 Multi-agent scenarios should be considered to further improve the service. Also, operation research methods should be compared to show the necessity of deploying DRL agents for the service. Further, the stability of the agent should be improved. At last, a comprehensive of assesement of the service in terms of profits, demands and other market information should be done to support feasibilty of the service. 
 
