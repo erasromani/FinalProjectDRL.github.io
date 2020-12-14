@@ -36,7 +36,7 @@ The rewards design is also simple. The agent will get -1 reward for every time s
 Another hard part is to design a proper neural network to capture the changing environment. The first problem is that demands appear and disappear dynamically. The input size will change over time. To capture this, a LSTM encoder is used to encode the orders. The network inputs the latest 10 orders and encoder them. Then, a LSTM cell decodes hidden units using the current bus information including bus location, in-vehicle people's destinations and their corresponding in-vehicle time. The design is shown below.
 
 <p align="center">
-  <img width="400" height="800" src="Img/Lstm.png">
+  <img width="800" height="400" src="Img/Lstm.png">
 </p>
 
 ## Experiments and results
