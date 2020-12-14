@@ -76,7 +76,7 @@ Moreover, the ratio of average in-vehicle time over direct trip time is plotted 
   <img width="265" height="220" src="Img/average ratio.png">
 </p>
 
-### Illustration of trained agent
+### Illustration of One Trained Agent
 The below GIF is a example of the trained agent. The agent achieved 834 rewards and successfully delivered 44 deamnds while it failed to do on-time delivery for only 8 times. However, we can also see some instability of the trained agent due to fast change of the environment. In the furture, stability should be further improved.
 <p align="center">
   <img width="400" height="400" src="Img/ff8.gif">
