@@ -45,10 +45,13 @@ Two models are proposed to solve the above enviroment setting, which are actor c
 | Parameters    | Actor Critic |Dueling Double DQN|
 | ------------- | ----------------- |--------|
 | Discount | 0.99|0.99|
-|number of episode  | 5000  |5000|
-|batch|/|32|
+|Number of episode  | 5000  |5000|
+|Batch|/|32|
 |Exploration Rate|/|0.01|
 |Repaly Memory Size|/|10000|
+|Learning Rate|0.0005|0.0005|
+|Entropy Regularization|0.005|/|
+|Steps to Update Target Networks|/|1000|
 
 ## Future Work
 
