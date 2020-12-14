@@ -93,6 +93,6 @@ Multi-agent scenarios should be considered to further improve the service. Also,
 
 \[[5](https://arxiv.org/pdf/1903.03882.pdf)\]Al-Abbasi, A. O., Ghosh, A., & Aggarwal, V. (2019). Deeppool: Distributed model-free algorithm for ride-sharing using deep reinforcement learning. IEEE Transactions on Intelligent Transportation Systems, 20(12), 4714-4727.
 
-\[[6](https://arxiv.org/abs/1911.11260)\] Holler, J., Vuorio, R., Qin, Z., Tang, X., Jiao, Y., Jin, T., ... & Ye, J. (2019, November). Deep Reinforcement Learning for Multi-Driver Vehicle Dispatching and Repositioning Problem. In 2019 IEEE International Conference on Data Mining (ICDM) (pp. 1090-1095). IEEE.\
+\[[6](https://arxiv.org/abs/1911.11260)\] Holler, J., Vuorio, R., Qin, Z., Tang, X., Jiao, Y., Jin, T., ... & Ye, J. (2019, November). Deep Reinforcement Learning for Multi-Driver Vehicle Dispatching and Repositioning Problem. In 2019 IEEE International Conference on Data Mining (ICDM) (pp. 1090-1095). IEEE.
 
 \[[7](https://arxiv.org/pdf/2003.10942)\]Riley, C., Van Hentenryck, P., & Yuan, E. (2020). Real-Time Dispatching of Large-Scale Ride-Sharing Systems: Integrating Optimization, Machine Learning, and Model Predictive Control. arXiv preprint arXiv:2003.10942.
