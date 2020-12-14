@@ -44,7 +44,7 @@ Two models are proposed to solve the above enviroment setting, which are actor c
 
 | Parameters    | Second Header ||
 | ------------- | ----------------- |--------|
-| $\gamma$ | Content Cell  |
+| $\\gamma$ | Content Cell  |
 | Content Cell  | Content Cell  |
 ## Future Work
 
