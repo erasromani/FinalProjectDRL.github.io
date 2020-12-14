@@ -42,9 +42,9 @@ Another hard part is to design a proper neural network to capture the changing e
 ## Experiments and results
 Two models are proposed to solve the above enviroment setting, which are actor critic using a PPO agent and dueling double deep q network. The parameters of actor critic with a PPO agent are 
 
-| First Header  | Second Header |
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
+| Parameters    | Second Header ||
+| ------------- | ----------------- |--------|
+| \gamma  | Content Cell  |
 | Content Cell  | Content Cell  |
 ## Future Work
 
