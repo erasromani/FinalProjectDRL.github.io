@@ -33,7 +33,7 @@ Each time step, the bus agent will decide its destination. In this setting, the 
 The rewards design is also simple. The agent will get -1 reward for every time step and get +20 if a customer is delivered successfully. If customers are delivered within 20 time steps, the agent will get bonus +1 for every saved time. If the delivery is beyond 20 time steps, the agent will get punishment -1 for every consumed time steps.
 
 ### Network Design 
-Another hard part is to design a proper neural network to capture the changing environment. The first problem is that demands appear and disappear dynamically. The input size will change over time. To capture this, a LSTM encoder is used to encode the orders. The network inputs the latest 10 orders and encoder them. Then, a LSTM cell decodes hidden units using the current bus information including bus location, in-vehicle people's destinations and their corresponding in-vehicle time. The design is shown below.
+Another hard part is to design a proper neural network to capture the changing environment. The first problem is that demands appear and disappear dynamically. The input size will change over time. To capture this, a LSTM encoder is used to encode the orders. The network inputs the latest 10 orders and encoder them. Then, a LSTM cell decodes hidden units using the current bus information including bus location, in-vehicle people's destinations and their corresponding in-vehicle time. Also, masks of outputs are adopted to allow possible actions. The design is shown below.
 
 <p align="center">
   <img width="600" height="300" src="Img/Lstm.png">
