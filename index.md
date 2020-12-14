@@ -53,11 +53,18 @@ Two models are proposed to solve the above enviroment setting, which are actor c
 |Entropy Regularization|0.005|/|
 |Steps to Update Target Networks|/|1000|
 
-The training curve of episode rewards and average 100-episodes rewards are shown in below graph.
+The training curve of episode rewards and average 100-episodes rewards are shown in below graph. The average rewards are around 300 for Dueling Double DQN agent, which is a good result considering punishment of -1 reward for every move.  
 
 <p align="center">
   <img width="400" height="300" src="Img/t1.png">
   <img width="400" height="300" src="Img/t2.png">
+</p>
+
+The avar
+<p align="center">
+  <img width="300" height="250" src="Img/td.png">
+  <img width="300" height="250" src="Img/te.png">
+  <img width="300" height="250" src="Img/average ratio.png">
 </p>
 
 
