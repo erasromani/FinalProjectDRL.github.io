@@ -60,7 +60,10 @@ The training curve of episode rewards and average 100-episodes rewards are shown
   <img width="400" height="300" src="Img/t2.png">
 </p>
 
-The avar
+For the Dueling Double DQN agent, the average number of on-time delivery and overtime delivery are shown in below figures. It is not a very good result, however, the agent tends to have higher rewards after 5000 episodes training. But,due to the time-consuming training procedure, which costs about 30 hours for 5000 episodes, 5000 episodes are chosen to do some preliminary analysis. The maximum number of on-time delivery can reach 51, which about 25% customers can be delivered on time. Moreover, the ratio of average in-vehicle time over direct trip time is plotted below. The criterion evaluates the average time of taking a detour for carpooling. It decreases as episodes increases, showing that the agent learn to avoid taking a longer detour. However, it is still 3 times longer than a normal trip, which could be even longer if the service time added when stopping at the station. This may decrease the demand of the service. To improve the service quality, multi-agents should be considered to decrease the ratio.
+
+
+
 <p align="center">
   <img width="300" height="250" src="Img/td.png">
   <img width="300" height="250" src="Img/te.png">
